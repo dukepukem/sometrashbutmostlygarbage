@@ -1,10 +1,10 @@
 # Load data
 
-# LOADDATA <- F
-# 
-# if(LOADDATA){
-#   source("~/Loss Data/R/Dashboards/speed_reader/sr_pipeline.R")
-# }
+LOADDATA <- T
+
+if(LOADDATA){
+  source("~/Loss Data/R/Dashboards/speed_reader/sr_pipeline.R")
+}
 
 
 # Load UI
